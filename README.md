@@ -1,33 +1,47 @@
-# Market Supply Analysis
+PREDICTING VEGETABLE SALES TREND
 
-This repository hosts a comprehensive data analysis project focused on understanding market supply and its relationship with various factors influencing vegetable sales, prices, and supplier performance.
+![Vegetables](Vegetables.jpg)
 
-## Visualizations
+ 
+OVERVIEW
 
-1. **Temperature Variation by Vegetable with Disaster Occurrence and Vegetable Conditions**
-  - Scatter Plot: This visualization depicts temperature variation across different vegetables, color-coded based on the occurrence of disasters and sized according to vegetable conditions.
+This project is addressing the issue of predicting sales trends for various vegetables sold across different retail chains. The goal is be to provide insights that can help these retail chains optimize their inventory management and pricing strategies.
 
-2. **Vegetable Price Analysis Across Seasons**
-  - Grouped Bar Chart: This analysis presents a seasonal comparison of vegetable prices, offering insights into the price fluctuations of various vegetables during different seasons.
+BUSINESS PROBLEM 
 
-3. **Sales Performance Comparison Among Different Suppliers**
-  - Bar Plot: This visualization compares the sales performance in kilograms among different suppliers, highlighting the sales differences and performance metrics of various suppliers.
+Predicting the sales of specific vegetables based on historical data and current market conditions.
 
-4. **Mean Sales per Supplier Across Different Months**
-  - Plotly Visualization: This interactive visualization provides insights into the mean sales performance per supplier across different months, allowing for a detailed exploration of sales trends per supplier over time.
+DATA UNDERSTANDING
 
-5. **Correlation of Sales Among Different Suppliers Over Time**
-  - Heatmap: This heatmap displays the correlation of sales among different suppliers over time, illustrating how the sales of different suppliers relate to each other, offering insights into their market dynamics.
+For this Analysis i will be using Vegatable retail chain data from Kaggle using the link  [see link](https://www.kaggle.com/datasets/whikechen/simple-vegetable-sale,https://www.kaggle.com/code/ahmadwaleed1/vegetable-retail-chains-eda)
 
-## Usage
+ 
+ Conclusion
 
-To reproduce these visualizations or conduct further analysis, follow these steps:
+ 
 
-1. Clone this repository.
-2. Ensure the required datasets are available and updated in the appropriate format.
-3. Execute the provided scripts or notebooks to generate the visualizations.
-4. Modify parameters or datasets as needed for custom analysis or additional insights.
+1. Seasonal Trends:
+   - The bar chart effectively illustrates seasonal patterns, allowing easy comparison of prices across seasons and different vegetable types.
+   - Certain vegetables, such as tomatoes and peas, perform well during the monsoon season, while brinjal, ginger, and okra thrive in the summer.
+   - Prices for different vegetables tend to peak during late summer and early monsoon seasons.
+   - Onions exhibit higher prices during autumn.
 
-## Contributing
+2. Sales Patterns:
+   - Lidi stands out with the highest sales of $4865.25, followed by Schwarz with $4697.35.
+   - Sales generally increase from the 5th to the 15th month but start decreasing from the 20th to the 30th month.
+   - Target has the lowest sales among the observed vendors.
 
-We welcome contributions and improvements to the analysis, additional visualizations, or data enhancements. Please refer to the CONTRIBUTING.md file for guidelines on contributing to this project.
+3. Supplier Relationships:
+   - Positive correlation between two suppliers suggests that when one has high sales, the other tends to have high sales as well.
+   - Negative correlation, as seen with Metro and Walmart, indicates that when one supplier has high sales, the other tends to have low sales.
+
+
+
+These conclusions provide a starting point for deeper analysis and potentially inform strategic decisions for businesses involved in the sale of vegetables. Further analysis and predictive modeling can be undertaken to develop a more comprehensive understanding of the factors influencing vegetable sales.
+
+Recommendations/Implications
+
+
+   - Businesses may want to adjust their inventory and marketing strategies based on seasonal variations, focusing on the specific vegetables that perform well during certain seasons.
+   - Pricing strategies should take into account the observed peaks in vegetable prices during late summer and early monsoon seasons.
+   - The decline in sales during the later months could prompt further investigation into potential factors affecting customer behavior.
